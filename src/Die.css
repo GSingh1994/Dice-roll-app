@@ -1,8 +1,10 @@
 .Die-dice{
-    height: 5rem;
+    padding: 0;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 4rem;
+    margin-left: 14rem;
+    float: left;
 }
 .fas{
-    font-size: 5rem
+    font-size: 8rem
 }

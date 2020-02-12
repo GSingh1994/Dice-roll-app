@@ -1,9 +1,12 @@
 .RollDice-btn{
-    height: 3rem;
+    height: 4rem;
     width: 10rem;
-    background-color: aqua;
-    border: 2px solid green;
+    background-color: whitesmoke;
+    border: none;
     position: absolute;
-    top: 50%;
-    left: 42%;
+    top: 55%;
+    left: 40%;
+    color: red;
+    font-size: 1.4em;
+    font-family: 'Comfortaa', cursive;
 }
