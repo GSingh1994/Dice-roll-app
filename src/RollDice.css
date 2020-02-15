@@ -1,12 +1,21 @@
 .RollDice-btn{
-    height: 4rem;
-    width: 10rem;
-    background-color: whitesmoke;
-    border: none;
-    position: absolute;
-    top: 55%;
-    left: 40%;
+    position: relative;
+    top: 3rem;
+    left: 43%;
+    height: 6rem;
+    width: 12rem;
     color: red;
-    font-size: 1.4em;
+    font-size: 2rem;
     font-family: 'Comfortaa', cursive;
+    border: none;
+    border-radius:2em;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.Rolldice-face{
+    width: 70%;
+    margin:3em auto;
+    display: flex;
+    justify-content: space-evenly;
 }

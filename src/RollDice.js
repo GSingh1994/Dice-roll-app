@@ -22,9 +22,11 @@ class RollDice extends Component {
     render() {
         return (
             <div>
-                <Die face={this.state.num1} />
-                <Die face={this.state.num2} />
-                <button onClick={this.roll} className='RollDice-btn'>Roll Dice!</button>
+                <div className="Rolldice-face">
+                    <Die face={this.state.num1} />
+                    <Die face={this.state.num2} />
+                </div>
+                <button className="RollDice-btn" onClick={this.roll}>Roll Dice!</button>
             </div>
         );
     }
