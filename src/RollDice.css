@@ -1,21 +1,32 @@
-.RollDice-btn{
+/* .RollDice-btn{
     position: relative;
-    top: 3rem;
-    left: 43%;
+    top: 1em;
+    left: 3em;
     height: 6rem;
     width: 12rem;
     color: red;
     font-size: 2rem;
     font-family: 'Comfortaa', cursive;
     border: none;
-    border-radius:2em;
+    border-radius:1em;
     -webkit-box-shadow: 5px 5px 15px 5px #000000; 
     box-shadow: 5px 5px 15px 5px #000000;
-}
+    outline: none;
+} */
 
 .Rolldice-face{
     width: 70%;
     margin:3em auto;
     display: flex;
     justify-content: space-evenly;
+}
+.RollDice-btn{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.RollDice-btn button{
+    width: 15em;
+    height: 5em;
 }
