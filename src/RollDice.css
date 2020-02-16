@@ -1,32 +1,32 @@
-/* .RollDice-btn{
-    position: relative;
-    top: 1em;
-    left: 3em;
-    height: 6rem;
-    width: 12rem;
-    color: red;
-    font-size: 2rem;
-    font-family: 'Comfortaa', cursive;
-    border: none;
-    border-radius:1em;
-    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
-    box-shadow: 5px 5px 15px 5px #000000;
-    outline: none;
-} */
-
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 .Rolldice-face{
-    width: 70%;
+    width: 100%;
     margin:3em auto;
     display: flex;
     justify-content: space-evenly;
 }
 .RollDice-btn{
     display: flex;
-    align-self: center;
     justify-content: center;
 }
 
 .RollDice-btn button{
-    width: 15em;
-    height: 5em;
+    width: 10em;
+    height: 3em;
+    margin: 1.6em;
+    font-size: 2em;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0;
+    background-color: #6e5773;
+    color: wheat;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.RollDice-btn button:hover{
+    background-color: #f3dfe3;
+    color: #6e5773;
+    cursor: pointer;
 }

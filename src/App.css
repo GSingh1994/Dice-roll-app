@@ -1,5 +1,9 @@
 .App{
     width: 50%;
     margin: 0 auto;
-    border: 1px solid white;
+    padding: 1em;
+    background-color: #d45d79;
+    color: whitesmoke;
+    border-radius: 1em;
+    margin-top: 2em;
 }
